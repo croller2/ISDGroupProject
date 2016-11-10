@@ -1,0 +1,440 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+    display: block;
+}
+
+body {
+    background-color: #FFF;
+    font-family: Verdana, Arial, sans-serif;
+    color: #000000;
+}
+
+fieldset {
+    border: none;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    min-width: 960px;
+    background-color: #344aa3;
+    box-shadow: 5px 5px 5px #2E0000;
+}
+
+#greeting {
+    color: #e80730;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#groovy {
+
+    display: inline-block;
+    vertical-align: text-top;
+    margin-right: 90px;
+}
+
+header {
+    background-color: #5d8ee6;
+    background-image: url(../img/head.png);
+    Position: relative;
+    color: #fff;
+}
+
+h1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    font-style: none;
+    height: 100px;
+    margin-bottom: 0;
+    padding-top: 50px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+h3 {
+    text-transform: uppercase;
+    background-color: #E2D2B0;
+}
+
+nav {
+    float: none;
+    width: auto;
+    height: 15px;
+    padding: 0;
+    background: #999;
+    margin-top: -20px;
+    padding-top: 50px;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+
+    nav ul {
+        text-align: left;
+        margin-top: -20px;
+    }
+
+    nav li {
+        display: inline;
+        padding: 10px;
+        background-color: #090cbd;
+    }
+
+
+
+
+a {
+    text-decoration: none;
+    font-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-style: none;
+}
+
+    nav a:link {
+        color: #FFF;
+    }
+
+    nav a:visited {
+        color: #777;
+    }
+
+    nav a:hover {
+        color: #FF0000;
+    }
+
+
+#content {
+    padding: 1px 20px 20px 20px;
+    background-color: #FFFFCC;
+    margin-left: 175px;
+}
+
+#content1 {
+    padding: 1px 20px 20px 20px;
+    color: #F5F5DC;
+    background:;
+}
+
+#content img {
+    float: left;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+section {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+dt {
+    font-weight: bold;
+}
+
+
+#content ul {
+    list-style-image: url(../img/marker.gif);
+    list-style-position: inside;
+}
+
+table {
+    border: 1px solid black;
+    background-color: #D8D8D8;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    color: #000;
+}
+
+    table#maintable {
+        border: 0;
+        background-color:#344aa3;
+        margin: auto;
+        text-align: center;
+        display: inline-block;
+        color: #000;
+    }
+
+#maintable {
+    border: 0;
+}
+tr#maintable {
+    border: 0;
+}
+
+th {
+    background-color: #08088A;
+    color: #FFF;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    padding-right: 20px;
+}
+
+span:active {
+    display: block;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: none;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=url]:focus {
+    border: 3px solid #555;
+}
+
+textarea:focus {
+    border: 3px solid #555;
+}
+
+input[type=submit] {
+    background-color: #08088A;
+    border: none;
+    color: #F5F5DC;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+tr:nth-of-type(odd) {background-color: #2E64FE; color: #fff; }
+
+.radio {
+    width: 19px;
+    height: 25px;
+    padding: 0 5px 0 0;
+    background: url(checkbox.png) no-repeat;
+    display: block;
+    clear: left;
+    float: left;
+    background: url(img/radio.jpg) no-repeat;
+}
+
+.select {
+    position: absolute;
+    width: 158px;
+    height: 21px;
+    padding: 0 24px 0 8px;
+    color: #fff;
+    font: 12px/21px arial,sans-serif;
+    background: url(img/radio.jpg) no-repeat;
+    overflow: hidden;
+}
+
+
+.redLink:link {
+    color: #F00;
+}
+
+.redLink:visited {
+    color: #F00;
+}
+
+.redLink:hover {
+    color: #F00;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.redLink:active {
+    color: #990000;
+}
+
+footer {
+    background-color: #5d8ee6;
+    color: #000000;
+    padding: 20px;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+}
+
+    footer a:link {
+        color: #08088A;
+    }
+
+    footer a:visited {
+        color: #000000;
+    }
+
+    footer a:hover {
+        color: #F5F5DC;
+    }
+
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+
+    #wrapper {
+        min-width: 0;
+        width: auto;
+        margin: 0;
+    }
+
+    h1 {
+        background-image: url(../img/javalogomobile.gif);
+        margin: 0;
+    }
+
+    #content {
+        margin-left: 0;
+    }
+
+    #content1 {
+        margin-left: 0;
+    }
+
+    nav {
+        float: none;
+        width: auto;
+        padding: 0;
+    }
+
+        nav ul {
+            text-align: center;
+        }
+
+        nav li {
+            display: inline;
+            padding: 0 0.75em;
+        }
+
+    section {
+        padding: 0;
+    }
+
+    #content ul {
+        clear: both;
+        padding-top: 1em;
+    }
+
+    #carAmount {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        margin: 0;
+    }
+
+    #wrapper {
+        width: auto;
+        min-width: 0;
+        margin: 0;
+    }
+
+    h1 {
+        background-image: url(../img/javalogomobile.gif);
+        margin: 0;
+    }
+
+    #content {
+        padding: 0.1em 1em;
+        margin: 0;
+        font-size: 90%;
+    }
+
+    #content1 {
+        padding: 0.1em 1em;
+        margin: 0;
+        font-size: 90%;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        width: 5em;
+        font-size: 120%;
+        text-align: center;
+        box-shadow: 2px 2px 2px #330000;
+        background-color: #F5F5DC;
+        margin: 1%;
+        padding: 2.5%;
+    }
+
+    nav a {
+        display: block;
+    }
+
+        nav a:hover {
+            color: #D2B48C;
+        }
+
+    #content img {
+        float: none;
+        padding: 0;
+        margin: 0.1em;
+    }
+
+    section {
+        padding: 0;
+    }
+
+        section img {
+            display: none;
+        }
+
+    #mobile {
+        display: inline;
+    }
+
+    #desktop {
+        display: none;
+    }
+
+    label {
+        float: none;
+        text-align: left;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    #carAmount {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+}
